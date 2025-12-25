@@ -1,0 +1,5 @@
+user_input = input("Enter Gmail:")
+a = user_input.find("@")
+dot = user_input.find(".")
+nothing = user_input.find(" ")
+print("\"@\" is On:",(a),"\n","\".\"Is On:",dot,"\n","\"Space\" Is ON:",nothing)

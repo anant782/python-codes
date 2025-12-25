@@ -1,0 +1,5 @@
+user_input = input("Write Any PAra Here:")
+the_count = user_input.count("the")
+the_replace = user_input.replace("the","THE")
+print(the_count,"Time \"the\" Come on Ur Sentence")
+print("New Sentence Is",the_replace)
